@@ -1,0 +1,149 @@
+/* Colors and fonts */
+body {
+  color: rgb(50, 50, 50);
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-weight: ;
+  text-align: justify;
+}
+h1, h2, h3 {
+  font-family: 'Lora',serif;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #darkblue;
+  font-size: 28px;
+  font-weight: lighter;
+  font-weight: 500;
+  border-bottom: 3px solid rgb(130, 130, 130);
+  text-align: left;
+}
+a {
+  font-family: 'Lora', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 17px;
+}
+a:hover {
+  color: darkblue;
+}
+
+
+/*class*/
+.container {
+  width: 780px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.sec-left{float: left;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.sec-right{margin-left: 200px;
+text-align: justify;
+margin-top: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #575F7D;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(130, 130, 130);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+.time{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*id*/
+#introduction p {
+  margin-bottom: 30px;
+}
+
+#card-lay-left p{
+  margin-bottom: 50px;
+}
+
+#h2-centered {
+  text-align: center;
+}
+
+/* responsive*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
