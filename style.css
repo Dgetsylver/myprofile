@@ -60,14 +60,14 @@ margin-top: 30px;
 .img-circle {
   border-radius: 50%;
 }
-.btn-blue {
+.btn-grey {
   background-color: #575F7D;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
   text-align: center;
 }
-.btn-blue:hover {
+.btn-gery:hover {
   background-color: black;
   color: white;
   margin-bottom: 40px;
