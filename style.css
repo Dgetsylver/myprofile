@@ -104,9 +104,6 @@ margin-top: 30px;
 #card-lay-left p{
   margin-bottom: 50px;
 }
-#h2-centered {
-  text-align: center;
-}
 /* responsive*/
 @media (max-width: 960px) {
   .container {
